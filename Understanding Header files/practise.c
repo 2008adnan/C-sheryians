@@ -32,7 +32,7 @@ void program3(){
     printf("the second digit is %d\n",sd);
     printf("the reverse of the number is %d\n",rev);
 
-}*/
+}
 void program4(){
     int dig;
     printf("enter a 3 digit number:");
@@ -42,7 +42,7 @@ void program4(){
     printf("second digit: %d\n", sd = (dig/10)%10);
     printf("third digit: %d\n", td = dig%10);
     printf("the reverse is: %d\n", (td*100)+(sd*10)+fd);
-}
+}*/
 int main(){
     program4();
     return 0;
