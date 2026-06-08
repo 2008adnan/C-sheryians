@@ -43,7 +43,20 @@ void program4(){
     printf("third digit: %d\n", td = dig%10);
     printf("the reverse is: %d\n", (td*100)+(sd*10)+fd);
 }*/
+void program5(){
+    int t;
+    printf("enter time in seconds to convert:");
+    scanf("%d",&t);
+    int h;
+    h = t/3600;
+    int m = (t%3600)/60;
+    int s = t%60;
+    printf("the converted time is %d hours %d minutes %d seconds", h,m,s);
+}
+void program6(){
+
+}
 int main(){
-    program4();
+   program5();
     return 0;
 }
