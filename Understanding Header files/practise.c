@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-float m,p,c;
+/*float m,p,c;
 char name[100];
 void program1(){
     printf("enter the name of student:");
@@ -13,14 +13,37 @@ void program2(){
     scanf(" %f",&p);
     printf("enter marks obtained in chemistry:");    
     scanf(" %f",&c);
-}
-int main(){
-    program1();
-    program2();
     float total = m+p+c;
     float per = (total/300)*100;
     printf("the name of student is %s\n",name);
     printf("the total marks obtained is %.2f\n",total);
     printf("the percentage obtained is %.2f\n",per);
+}
+void program3(){
+    int dig;
+    printf("enter a 2 digit number:");
+    scanf("%i",&dig);
+    int fd ;
+    fd = dig/10;
+    int sd ;
+    sd = dig%10;
+    int rev = (sd*10)+fd;
+    printf("the first digit is %d\n",fd);
+    printf("the second digit is %d\n",sd);
+    printf("the reverse of the number is %d\n",rev);
+
+}*/
+void program4(){
+    int dig;
+    printf("enter a 3 digit number:");
+    scanf("%d",&dig);
+    int fd,sd,td;
+    printf("first digit: %d\n", fd = dig/100);
+    printf("second digit: %d\n", sd = (dig/10)%10);
+    printf("third digit: %d\n", td = dig%10);
+    printf("the reverse is: %d\n", (td*100)+(sd*10)+fd);
+}
+int main(){
+    program4();
     return 0;
 }
