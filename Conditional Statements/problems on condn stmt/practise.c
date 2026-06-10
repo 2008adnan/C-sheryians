@@ -45,9 +45,66 @@
     }
 }*/
 
+//take a number from user and check if it is even or odd
 
+/*void program4(){
+    int a;
+    printf("enter a number:");
+    scanf("%d", &a);
+    int rem = a%2;
+    if(rem==0){
+        printf("the number is even");
+    }else{
+        printf("the number is odd");
+    }
+}*/
+
+//take three numbers from check each if it is positive, negative or zero
+
+/*void program5(){
+    float a,b,c;
+    printf("enter three numbers:");
+    scanf("%f %f %f",&a,&b,&c);
+    if(a<0){
+        printf("a is -ve\n");
+    }else if(a>0){
+        printf("a is +ve\n");
+    }else{
+        printf("a is zero\n");
+    }
+    if(b<0){
+        printf("b is -ve\n");
+    }else if(b>0){
+        printf("b is +ve\n");
+    }else{
+        printf("b is zero\n");
+    }
+    if(c<0){
+        printf("c is -ve\n");
+    }else if(c>0){
+        printf("c is +ve\n");
+    }else{
+        printf("c is zero\n");
+    }
+}*/
+
+//take name and age of user as input and check if he/she is an eligible voter
+
+void program6(){
+    char name[100];
+    int age;
+    printf("enter you name:");
+    scanf("%s", &name);
+    printf("enter your age:");
+    scanf("%d", &age);
+    if(age>=18){
+        printf("\"Hello %s, you are eligible to vote\" ", name);
+    }else{
+        printf("\"Hello %s, you will be eligible to vote in %d years\"",name,18-age);
+    }
+}
 
 int main(){
-    program2();
+    program6();
     return 0;
 }
