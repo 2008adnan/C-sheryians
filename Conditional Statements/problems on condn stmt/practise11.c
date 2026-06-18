@@ -11,7 +11,7 @@ int main(){
     }else if(rating>3.5 && rating<=4.5){
         printf("Hit");
     }else if(rating>4.5 && rating<=5){
-        printf("SuperHit")
+        printf("SuperHit");
     }else{
         printf("Enter Valid Rating");
     }
