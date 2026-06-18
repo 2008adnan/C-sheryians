@@ -20,4 +20,5 @@ int main(){
         float pay = m-discount;
         printf("The amount to be payed after applying 20%% discount is %.2f", pay);        
     }
+    return 0;
 }
