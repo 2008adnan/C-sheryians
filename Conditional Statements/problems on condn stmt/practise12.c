@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(){
+void program(){
     float m;
     printf("Enter original amount to be paid:");
     scanf("%f", &m);
@@ -20,5 +20,8 @@ int main(){
         float pay = m-discount;
         printf("The amount to be payed after applying 20%% discount is %.2f", pay);        
     }
+}
+int main(){
+    program();
     return 0;
 }
