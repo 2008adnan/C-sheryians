@@ -15,4 +15,5 @@ int main(){
     }else{
         printf("Enter Valid Rating");
     }
+    return 0;
 }
