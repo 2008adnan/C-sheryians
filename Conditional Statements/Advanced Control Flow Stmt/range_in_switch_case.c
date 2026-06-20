@@ -11,7 +11,7 @@ int main(){
     case 4 ... 6: //
         printf("You're a pre-schooler");
         break;
-    case 7 ... 10: //
+    case 7 ... 10: //cases work with only int or char types only
         printf("You're a child");
         break;
     case 18 ... 25: //
