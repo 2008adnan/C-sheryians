@@ -19,7 +19,7 @@ int main(){
         break;
     case 5:
         printf("Friday\n");
-        break;
+        //example mene yha se break hta diya toh ab agr koi 5 dalega toh case 5 ke sath sath case 6 bhi chalega kyuki next break usi pe hai 
     case 6:
         printf("Saturday\n");
         break;
