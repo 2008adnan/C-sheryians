@@ -11,7 +11,7 @@ int main(){
         continue;  // ...to ye line chalte hi loop turant agle iteration pe chala jata hai
                    // matlab neeche wali printf line skip ho jaati hai sirf isi ek baar ke liye
                    // (poora loop break nahi hota, sirf yeh wala round skip hota hai)
-        printf("%d\n",i);   // ye sirf un numbers ke liye chalega jo 'e' ke equal nahi hain
+        printf("%d\n",i);   // ye sirf un numbers ke liye chalega jo 'e' ke equal nahi hain   
     }
 
     return 0;
