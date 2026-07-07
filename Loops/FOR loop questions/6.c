@@ -7,7 +7,7 @@ int main(){
         for(int i = j; i>=1;i--){
         fac = fac * i;                          
         }   
-        if(j!=n){
+        if(j!=n){         
             printf("%d! + ", j);
         } else {
             printf("%d! = ", j);
