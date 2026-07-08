@@ -22,6 +22,6 @@ int main(){
         sum =sum + res;
         n /= 10;
     }
-    printf("Sum of digits raised to the power of number of digits: %d",sum);
+    printf(sum==copy?"Armstrong number":"Not an Armstrong number");
     return 0;
 }
