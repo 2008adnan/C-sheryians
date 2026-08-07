@@ -12,9 +12,9 @@ int main(){
     int even = 0, odd = 0;
     for(int k= 0;k<i;k++){
         if(arr[k]%2==0){
-            even += 1;
+            even++;
         }else{
-            odd += 1;
+            odd++;
         }
     }
     printf("The count of even numbers in the array is: %d\n", even);
