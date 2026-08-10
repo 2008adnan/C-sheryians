@@ -18,11 +18,6 @@ int main(){
             break;
         }
     }
-    if(found == -1){
-        printf("Element not found\n");
-    }
-    else{
-        printf("Element found at index %d\n",found);
-    }
+    printf(found == -1? "Element not found\n": "Element found at index %d\n",found);
     return 0;
 }
