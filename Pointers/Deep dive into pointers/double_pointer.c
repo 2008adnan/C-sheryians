@@ -7,7 +7,6 @@ int main(){
     printf("%p\n", ptr2);
     **ptr2 = **ptr2 + 5;
     printf("%d\n", **ptr2);
-    (**ptr2)++;
     printf("%d\n", **ptr2);
     return 0;
 }
