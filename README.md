@@ -7,5 +7,4 @@ It serves as a collection of programs, exercises, and experiments created while 
 ## Author
 
 Adnan Ahmad
-
 GitHub: 2008adnan
